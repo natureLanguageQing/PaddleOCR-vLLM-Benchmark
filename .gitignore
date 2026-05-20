@@ -1,0 +1,14 @@
+# Ignore model weights and large tars
+models/
+*.tar
+*.tar.gz
+*.clean.tar
+
+# Ignore generated testing artifacts
+large_noisy_image.jpg
+large_test_image.png
+SimHei.ttf
+
+# Ignore git backup directory
+.git_bak/
+*.git_bak
